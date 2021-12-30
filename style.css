@@ -1,0 +1,26 @@
+* {
+	font-family: Arial;
+	font-size:24px;	
+}
+h1 {
+	font-size:48px;
+	color:#FFF;
+	background-color:#666;
+	text-align:center;border-radius:10px;
+}
+
+
+.task-form{
+    border: 1px solid black;
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+
+}
+
+@media screen and (max-width: 800px ){
+    .task-form{
+        width: 100%;
+    }
+}
